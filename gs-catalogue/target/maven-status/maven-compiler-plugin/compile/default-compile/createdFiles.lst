@@ -1,0 +1,6 @@
+com\university\library\catalogue\service\BookService.class
+com\university\library\catalogue\repository\BookRepository.class
+com\university\library\catalogue\dto\BookDTO.class
+com\university\library\catalogue\controller\BookController.class
+com\university\library\catalogue\CatalogueApplication.class
+com\university\library\catalogue\model\Book.class
