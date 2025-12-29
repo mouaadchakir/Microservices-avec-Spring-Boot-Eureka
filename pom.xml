@@ -30,6 +30,7 @@
         <module>eureka-server</module>
         <module>gs-catalogue</module>
         <module>gs-etudiant</module>
+        <module>gs-emprunt</module>
     </modules>
     
     <dependencyManagement>

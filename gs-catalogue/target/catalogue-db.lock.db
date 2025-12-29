@@ -1,0 +1,6 @@
+#FileLock
+#Mon Dec 29 17:23:12 WEST 2025
+server=192.168.11.105\:58971
+hostName=192.168.11.105
+method=file
+id=19b6ae3a66b1c4a22d447658091dd11983beec87fae

@@ -1,7 +1,0 @@
-com\university\library\etudiant\model\Etudiant.class
-com\university\library\etudiant\dto\EtudiantDTO.class
-com\university\library\etudiant\service\EtudiantService.class
-com\university\library\etudiant\EtudiantApplication.class
-com\university\library\etudiant\controller\EtudiantController.class
-com\university\library\etudiant\repository\EtudiantRepository.class
-com\university\library\etudiant\config\AppConfig.class
