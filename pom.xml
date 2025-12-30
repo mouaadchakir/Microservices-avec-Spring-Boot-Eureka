@@ -31,6 +31,7 @@
         <module>gs-catalogue</module>
         <module>gs-etudiant</module>
         <module>gs-emprunt</module>
+        <module>api-gateway</module>
     </modules>
     
     <dependencyManagement>
