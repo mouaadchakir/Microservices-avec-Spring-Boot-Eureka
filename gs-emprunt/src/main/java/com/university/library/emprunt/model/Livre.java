@@ -8,9 +8,9 @@ public class Livre {
     private String title;
     private String author;
     private String isbn;
-    private int publicationYear;
+    private Integer publicationYear;
     private String publisher;
     private String category;
-    private int totalCopies;
-    private int availableCopies;
+    private Integer totalCopies;
+    private Integer availableCopies;
 }
