@@ -4,6 +4,7 @@ C:\Users\hp\Desktop\fsk\university-library\gs-emprunt\src\main\java\com\universi
 C:\Users\hp\Desktop\fsk\university-library\gs-emprunt\src\main\java\com\university\library\emprunt\repository\EmpruntRepository.java
 C:\Users\hp\Desktop\fsk\university-library\gs-emprunt\src\main\java\com\university\library\emprunt\dto\EmpruntDTO.java
 C:\Users\hp\Desktop\fsk\university-library\gs-emprunt\src\main\java\com\university\library\emprunt\model\Emprunt.java
+C:\Users\hp\Desktop\fsk\university-library\gs-emprunt\src\main\java\com\university\library\emprunt\config\SecurityConfig.java
 C:\Users\hp\Desktop\fsk\university-library\gs-emprunt\src\main\java\com\university\library\emprunt\model\Etudiant.java
 C:\Users\hp\Desktop\fsk\university-library\gs-emprunt\src\main\java\com\university\library\emprunt\model\Livre.java
 C:\Users\hp\Desktop\fsk\university-library\gs-emprunt\src\main\java\com\university\library\emprunt\client\LivreRestClient.java

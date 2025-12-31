@@ -32,6 +32,7 @@
         <module>gs-etudiant</module>
         <module>gs-emprunt</module>
         <module>api-gateway</module>
+        <module>authorization-server</module>
     </modules>
     
     <dependencyManagement>

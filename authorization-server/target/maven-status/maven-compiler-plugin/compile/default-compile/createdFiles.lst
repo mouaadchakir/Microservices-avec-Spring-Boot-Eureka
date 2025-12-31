@@ -1,0 +1,3 @@
+com\university\library\authserver\config\AuthorizationServerConfig.class
+com\university\library\authserver\AuthorizationServerApplication.class
+com\university\library\authserver\config\SecurityConfig.class
