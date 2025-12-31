@@ -2,6 +2,9 @@ C:\Users\hp\Desktop\fsk\university-library\gs-catalogue\src\main\java\com\univer
 C:\Users\hp\Desktop\fsk\university-library\gs-catalogue\src\main\java\com\university\library\catalogue\repository\BookRepository.java
 C:\Users\hp\Desktop\fsk\university-library\gs-catalogue\src\main\java\com\university\library\catalogue\dto\BookDTO.java
 C:\Users\hp\Desktop\fsk\university-library\gs-catalogue\src\main\java\com\university\library\catalogue\service\BookService.java
+C:\Users\hp\Desktop\fsk\university-library\gs-catalogue\src\main\java\com\university\library\catalogue\exception\ResourceNotFoundException.java
+C:\Users\hp\Desktop\fsk\university-library\gs-catalogue\src\main\java\com\university\library\catalogue\exception\ErrorDetails.java
 C:\Users\hp\Desktop\fsk\university-library\gs-catalogue\src\main\java\com\university\library\catalogue\config\AppConfig.java
+C:\Users\hp\Desktop\fsk\university-library\gs-catalogue\src\main\java\com\university\library\catalogue\exception\GlobalExceptionHandler.java
 C:\Users\hp\Desktop\fsk\university-library\gs-catalogue\src\main\java\com\university\library\catalogue\CatalogueApplication.java
 C:\Users\hp\Desktop\fsk\university-library\gs-catalogue\src\main\java\com\university\library\catalogue\model\Book.java

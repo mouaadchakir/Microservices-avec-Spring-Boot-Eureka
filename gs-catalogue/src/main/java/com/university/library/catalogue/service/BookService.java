@@ -3,7 +3,7 @@ package com.university.library.catalogue.service;
 import com.university.library.catalogue.dto.BookDTO;
 import com.university.library.catalogue.model.Book;
 import com.university.library.catalogue.repository.BookRepository;
-import jakarta.persistence.EntityNotFoundException;
+import com.university.library.catalogue.exception.ResourceNotFoundException;
 import lombok.RequiredArgsConstructor;
 import org.modelmapper.ModelMapper;
 import org.springframework.stereotype.Service;
@@ -20,7 +20,7 @@ public class BookService {
 
     public BookDTO getBookById(Long id) {
         Book book = bookRepository.findById(id)
-                .orElseThrow(() -> new EntityNotFoundException("Book not found with id: " + id));
+                .orElseThrow(() -> new ResourceNotFoundException("Book not found with id: " + id));
         return convertToDto(book);
     }
 
