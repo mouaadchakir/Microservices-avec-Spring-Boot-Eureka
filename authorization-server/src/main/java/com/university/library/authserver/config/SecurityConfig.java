@@ -2,6 +2,7 @@ package com.university.library.authserver.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
+import org.springframework.security.config.Customizer;
 import org.springframework.security.config.annotation.web.builders.HttpSecurity;
 import org.springframework.security.config.annotation.web.configuration.EnableWebSecurity;
 import org.springframework.security.core.userdetails.User;
@@ -19,7 +20,7 @@ public class SecurityConfig {
             .authorizeHttpRequests(authorizeRequests ->
                 authorizeRequests.anyRequest().authenticated()
             )
-            .formLogin(); // Use form login for authentication
+            .formLogin(Customizer.withDefaults());
         return http.build();
     }
 
