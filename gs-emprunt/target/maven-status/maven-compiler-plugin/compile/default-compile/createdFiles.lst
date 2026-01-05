@@ -5,6 +5,8 @@ com\university\library\emprunt\model\Emprunt.class
 com\university\library\emprunt\dto\EmpruntDTO.class
 com\university\library\emprunt\model\Livre.class
 com\university\library\emprunt\service\EmpruntService.class
+com\university\library\emprunt\config\FeignClientInterceptor.class
+com\university\library\emprunt\config\SecurityConfig.class
 com\university\library\emprunt\controller\EmpruntController.class
 com\university\library\emprunt\client\EtudiantRestClient.class
 com\university\library\emprunt\model\Etudiant.class
