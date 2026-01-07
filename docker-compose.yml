@@ -26,10 +26,10 @@ services:
       - authorization-server
     # Had l-khat hiya li ghadi t-fekk l-mouchkil:
     extra_hosts:
-      - "localhost:host-gateway"
+      - "host.docker.internal:host-gateway"
     environment:
       - EUREKA_CLIENT_SERVICEURL_DEFAULTZONE=http://admin:admin123@eureka-server:8761/eureka/
-      - SPRING_SECURITY_OAUTH2_RESOURCESERVER_JWT_ISSUER_URI=http://localhost:9000
+      - SPRING_SECURITY_OAUTH2_RESOURCESERVER_JWT_ISSUER_URI=http://authorization-server:9000
     networks:
       - micro-net
   gs-catalogue:
