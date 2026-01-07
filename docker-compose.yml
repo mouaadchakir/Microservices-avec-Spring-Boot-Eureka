@@ -12,7 +12,7 @@ services:
       - "9000:9000"
     environment:
       - EUREKA_CLIENT_SERVICEURL_DEFAULTZONE=http://admin:admin123@eureka-server:8761/eureka/
-      # Zid had l-khat bach l-auth server y-gul f l-token ana smiyti localhost
+      
       - SERVER_FORWARD_HEADERS_STRATEGY=framework
     networks:
       - micro-net
@@ -55,7 +55,7 @@ services:
       - SPRING_DATASOURCE_URL=jdbc:mysql://host.docker.internal:3306/library_emprunt?createDatabaseIfNotExist=true
       - SPRING_DATASOURCE_USERNAME=root
       - SPRING_DATASOURCE_PASSWORD=
-      # Hna l-hal! Docker kiy-chouf l-auth-server b had l-smiya machi localhost
+      
       - SPRING_SECURITY_OAUTH2_RESOURCESERVER_JWT_ISSUER_URI=http://authorization-server:9000
     networks:
       - micro-net
