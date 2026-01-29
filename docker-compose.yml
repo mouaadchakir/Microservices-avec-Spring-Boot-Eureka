@@ -5,7 +5,7 @@ services:
       - "8761:8761"
     networks:
       - micro-net
-
+//chonger le port de api getway
   authorization-server:
     build: ./authorization-server
     ports:
