@@ -59,7 +59,7 @@ services:
       - SPRING_SECURITY_OAUTH2_RESOURCESERVER_JWT_ISSUER_URI=http://authorization-server:9000
     networks:
       - micro-net
-
+//chonger le port de api getway
   gs-etudiant:
     build: ./gs-etudiant
     depends_on:
